@@ -1,5 +1,5 @@
 {
-  "name": "Memeit!",
+  "name": "memeit",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Priyapac261/MEME-IT-/issues"
   },
-  "homepage": "https://github.com/Priyapac261/MEME-IT-#readme"
+  "homepage": "https://github.com/Priyapac261/MEME-IT-#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
