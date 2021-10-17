@@ -1,0 +1,27 @@
+body{
+	background: url("image/bgsignup.jpg");
+	padding-top: 25vh;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+
+}
+.bg{
+  height: 100%;
+}
+form{
+	background: #fff;
+  margin-bottom: 10vh;
+}
+.form-container{
+	border-radius: 10px;
+  padding: 30px;
+}
+
+.form-container{
+	border-radius: 10px;
+  padding: 30px;
+}
+.btn {
+  margin-top: 5px;
+}
