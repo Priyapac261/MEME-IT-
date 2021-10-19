@@ -103,3 +103,20 @@ nav{
   color: rgb(240, 23, 95);
 }
 
+/* styling for template page */
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.d-flex img{
+  width: auto;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
