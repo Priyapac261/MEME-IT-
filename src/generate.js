@@ -34,15 +34,20 @@
              {
                  params: {
                      template_id: req.body.template_id,
-                     username: req.body.username,
-                     password: req.body.password,
+                     username: "priyapac26",
+                     password: "E@glecrow8",
                      text0: req.body.text0,
                      text1: req.body.text1,
                  },
+
              }
          )
          .then((response) => {
-             return res.send(`<img src=${response.data.data.url}>`);
+             const image_meme  = response.data.data.url;
+            //  console.log(image_meme);
+             return res.send(`<img src=${image_meme}>
+              <p> Successfully generated </p>
+             `);
          }).catch((e) => {
              return res.status(403).send("403 Client Error")
          });

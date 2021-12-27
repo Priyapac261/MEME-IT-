@@ -20,7 +20,7 @@
                 <img class="meme_image" id=<%= i.id %> src=<%= i.url %>>
             <% } %>
           </div>
-          <form class="form-container" action="/generate" method="POST" enctype="application/x-www-form-urlencoded">
+          <form class="form-container" action="/generate" method="POST" enctype="application/x-www-form-urlencoded multipart/form-data">
             <h3 class="text-center">Generate your own memes</h3>
             
             <div class="form-group">
