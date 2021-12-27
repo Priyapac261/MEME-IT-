@@ -17,8 +17,7 @@ const userSchema = new mongoose.Schema({
     confirmpassword : {
         type : String,
         required : true,
-    },
-    image : String,
+    }
 });
 
 // Creating collection
